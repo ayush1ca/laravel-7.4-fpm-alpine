@@ -67,6 +67,6 @@ ADD nginx.conf /etc/nginx/
 # Remove Build Dependencies
 RUN apk del -f .build-deps
 # Setup Working Dir
-WORKDIR /var/www/html
+WORKDIR /var/www/
 
 CMD ["/usr/bin/supervisord"]
