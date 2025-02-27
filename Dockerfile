@@ -1,6 +1,6 @@
 FROM php:7.4-fpm-alpine3.16
 
-LABEL Maintainer Krunal Dabgar <krunald@webmobtech.com>
+LABEL Maintainer Ayush Chaturvedi <ayushc@webmobtech.com>
 
 # Essentials
 RUN echo "UTC" > /etc/timezone
